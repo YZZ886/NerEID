@@ -4,10 +4,16 @@ Project website for **Revealing Where Phase Errors Hide in Multiview 3D Coherent
 
 The English website includes the manuscript abstract, qualitative comparisons, method overview, rendered reconstructions, and selected Fourier-input / silhouette / 3D-video examples.
 
-## Website
+## Website files
 
-The static site is in `dist/`. No installation or compilation is required. All website images and videos are included and use relative paths.
+The static website is at the repository root. No installation or compilation is required. Images, videos, stylesheets, and scripts use relative paths.
 
-## Publishing
+## Deployment preparation
 
-GitHub Pages deployment is configured in `.github/workflows/pages.yml`. Enable GitHub Actions as the Pages publishing source in the repository settings. Updates to `dist/` on `main` trigger a new deployment.
+The website code and all videos have been uploaded. One original high-resolution image, `assets/paper/figure-05.webp`, is pending recovery after the local workspace disconnected. Restore this file before enabling the live website.
+
+## GitHub Pages
+
+After that image is restored, open Settings > Pages and choose **Deploy from a branch**, **main**, and **/(root)**, then save. Future commits to `main` will update the published site automatically.
+
+The project URL after publication is https://YZZ886.github.io/NerEID/.
