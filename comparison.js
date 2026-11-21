@@ -52,7 +52,7 @@
       video.poster=media.poster;
       video.load();
     }
-    baseline.setAttribute("aria-label",names[method]+" turntable video");
+    baseline.setAttribute("aria-label",names[method]+" algorithm output: turntable video");
     document.getElementById("baseline-label").textContent=names[method];
     range.setAttribute("aria-valuetext",range.value+" percent Ours, "+(100-Number(range.value))+" percent "+names[method]);
     document.getElementById("comparison-description").textContent="Sample "+sample;

@@ -157,7 +157,14 @@ button:focus-visible, a:focus-visible, summary:focus-visible {
 }
 .comparison-play-toggle:hover, .showcase-play-toggle:hover { background: #e6f0f8; border-color: #b4cbdc; }
 .top-comparison .compare-stage { border-radius: 10px; box-shadow: 0 5px 22px #294f7512; }
-.top-comparison .compare-label { border-radius: 5px; padding: 5px 13px; font-size: 12px; }
+.top-comparison .compare-label {
+  display: flex; flex-direction: column; gap: 4px; align-items: flex-start;
+  max-width: calc(50% - 28px); min-height: 78px; padding: 12px 20px;
+  border-radius: 8px; font-size: 24px; line-height: 1.2;
+  box-shadow: 0 3px 12px #0004; pointer-events: none; z-index: 6;
+}
+.top-comparison .compare-method { font: inherit; font-weight: 700; }
+.top-comparison .compare-output { font-size: 14px; font-weight: 600; line-height: 1.35; }
 .top-comparison .compare-label.left { background: #426d94e8; border-color: #c1d6e877; color: #fff; }
 .top-comparison .compare-label.right { background: #334b61e0; border-color: #c1d6e855; }
 .compare-handle { background: #e6eff8; }
@@ -238,7 +245,10 @@ footer > a:hover { color: #294f73; }
   .baseline-tabs button { padding: 6px 11px; font-size: 11px; min-height: 33px; }
   .comparison-play-toggle, .showcase-play-toggle { padding: 6px 9px; font-size: 11px; min-height: 33px; }
   .top-comparison .compare-stage { border-radius: 7px; }
-  .top-comparison .compare-label { font-size: 10px; padding: 4px 10px; }
+  .top-comparison .compare-label {
+    font-size: 20px; padding: 10px 12px; min-height: 68px;
+    max-width: calc(50% - 20px); top: 12px;
+  }
   .comparison-footer { font-size: 10px; }
   .paper-framework { padding: 5px !important; border-radius: 6px; }
   .figure-open { border-radius: 6px; }
