@@ -2,7 +2,7 @@
 // Paper figures and quantitative results remain separate from the video assets.
 window.CDI_CONTENT = {
   projectName: 'NerEID',
-  title: 'NerEID. Revealing Where Phase Errors Hide in Multiview 3D Coherent Diffraction Imaging',
+  title: 'Constraining phase ambiguity in sparse-view 3D coherent diffraction imaging',
   subtitle: 'One shared geometry. Phase regenerated at every update.',
   authors: 'Zhengzao Yu · Xiang Ji · Weilu Liu · Yaolong Fa · Shicheng Wei · Yuhao Wang · Wenbo Wan · Qiegen Liu',
   authorDetails: [{"name":"Zhengzao Yu","affiliation":"1","marker":"†"},{"name":"Xiang Ji","affiliation":"1","marker":"†"},{"name":"Weilu Liu","affiliation":"2","marker":""},{"name":"Yaolong Fa","affiliation":"1","marker":""},{"name":"Shicheng Wei","affiliation":"2","marker":""},{"name":"Yuhao Wang","affiliation":"1","marker":"*"},{"name":"Wenbo Wan","affiliation":"1","marker":"*"},{"name":"Qiegen Liu","affiliation":"1","marker":"*"}],
