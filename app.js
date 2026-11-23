@@ -15,7 +15,7 @@
 
   const fields = {title:"paper-title",subtitle:"paper-subtitle",abstract:"abstract-text",methodCaption:"method-caption"};
   for (const [key,id] of Object.entries(fields)) {
-    if (config[key] && $(id)) $(id).textContent = config[key];
+    if (config[key] && $(id) && (key !== "abstract" || !$(id).textContent.trim())) $(id).textContent = config[key];
   }
   if (config.title) document.title = config.title;
   if (config.projectName && config.title.startsWith(config.projectName + ".")) {
